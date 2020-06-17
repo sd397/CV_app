@@ -16,6 +16,8 @@
 		104FA426249A818E005FB934 /* CVappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA425249A818E005FB934 /* CVappTests.swift */; };
 		104FA431249A83E7005FB934 /* BasicProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA430249A83E7005FB934 /* BasicProfile.swift */; };
 		104FA434249A863D005FB934 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA433249A863D005FB934 /* Profile.swift */; };
+		104FA49E249A8D90005FB934 /* ProfileMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA49D249A8D90005FB934 /* ProfileMapper.swift */; };
+		104FA4A1249A8DF9005FB934 /* ProfileMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A0249A8DF9005FB934 /* ProfileMapperTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		104FA427249A818E005FB934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		104FA430249A83E7005FB934 /* BasicProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProfile.swift; sourceTree = "<group>"; };
 		104FA433249A863D005FB934 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		104FA49D249A8D90005FB934 /* ProfileMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMapper.swift; sourceTree = "<group>"; };
+		104FA4A0249A8DF9005FB934 /* ProfileMapperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMapperTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,7 @@
 				104FA40E249A818A005FB934 /* AppDelegate.swift */,
 				104FA410249A818A005FB934 /* SceneDelegate.swift */,
 				104FA412249A818A005FB934 /* ViewController.swift */,
-				104FA432249A85EC005FB934 /* Model */,
+				104FA49C249A8D55005FB934 /* Domain */,
 				104FA414249A818A005FB934 /* Main.storyboard */,
 				104FA417249A818E005FB934 /* Assets.xcassets */,
 				104FA419249A818E005FB934 /* LaunchScreen.storyboard */,
@@ -111,6 +115,24 @@
 				104FA433249A863D005FB934 /* Profile.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		104FA49C249A8D55005FB934 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				104FA432249A85EC005FB934 /* Model */,
+				104FA49F249A8D96005FB934 /* Mapper */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		104FA49F249A8D96005FB934 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				104FA49D249A8D90005FB934 /* ProfileMapper.swift */,
+				104FA4A0249A8DF9005FB934 /* ProfileMapperTest.swift */,
+			);
+			path = Mapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +240,7 @@
 				104FA434249A863D005FB934 /* Profile.swift in Sources */,
 				104FA431249A83E7005FB934 /* BasicProfile.swift in Sources */,
 				104FA40F249A818A005FB934 /* AppDelegate.swift in Sources */,
+				104FA49E249A8D90005FB934 /* ProfileMapper.swift in Sources */,
 				104FA411249A818A005FB934 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104FA4A1249A8DF9005FB934 /* ProfileMapperTest.swift in Sources */,
 				104FA426249A818E005FB934 /* CVappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

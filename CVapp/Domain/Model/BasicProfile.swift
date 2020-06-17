@@ -13,3 +13,5 @@ struct BasicProfile: Codable {
 		case firstName, sureName, role, summary
 	}
 }
+
+
