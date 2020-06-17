@@ -21,6 +21,7 @@
 		104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A8249A98E5005FB934 /* Profile+Stub.swift */; };
 		104FA4AB249A9BDD005FB934 /* ProfileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4AA249A9BDD005FB934 /* ProfileSource.swift */; };
 		104FA4AF249AA32A005FB934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4AE249AA32A005FB934 /* SceneDelegate.swift */; };
+		104FA4B2249AA822005FB934 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4B1249AA822005FB934 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		104FA4A8249A98E5005FB934 /* Profile+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+Stub.swift"; sourceTree = "<group>"; };
 		104FA4AA249A9BDD005FB934 /* ProfileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSource.swift; sourceTree = "<group>"; };
 		104FA4AE249AA32A005FB934 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		104FA4B1249AA822005FB934 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				104FA4AC249A9D45005FB934 /* App */,
 				104FA49C249A8D55005FB934 /* Domain */,
 				104FA4A3249A953A005FB934 /* Api */,
+				104FA4B0249AA560005FB934 /* Common */,
 			);
 			path = CVapp;
 			sourceTree = "<group>";
@@ -158,6 +161,14 @@
 				104FA412249A818A005FB934 /* ProfileViewController.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		104FA4B0249AA560005FB934 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				104FA4B1249AA822005FB934 /* Colors.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104FA413249A818A005FB934 /* ProfileViewController.swift in Sources */,
+				104FA4B2249AA822005FB934 /* Colors.swift in Sources */,
 				104FA4A7249A9865005FB934 /* ProfileFetcherStub.swift in Sources */,
 				104FA434249A863D005FB934 /* Profile.swift in Sources */,
 				104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */,
