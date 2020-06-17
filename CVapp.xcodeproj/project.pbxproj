@@ -21,6 +21,7 @@
 		104FA4A5249A95BF005FB934 /* ProfileFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A4249A95BF005FB934 /* ProfileFetching.swift */; };
 		104FA4A7249A9865005FB934 /* ProfileFetcherStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A6249A9865005FB934 /* ProfileFetcherStub.swift */; };
 		104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A8249A98E5005FB934 /* Profile+Stub.swift */; };
+		104FA4AB249A9BDD005FB934 /* ProfileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4AA249A9BDD005FB934 /* ProfileSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		104FA4A4249A95BF005FB934 /* ProfileFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFetching.swift; sourceTree = "<group>"; };
 		104FA4A6249A9865005FB934 /* ProfileFetcherStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFetcherStub.swift; sourceTree = "<group>"; };
 		104FA4A8249A98E5005FB934 /* Profile+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+Stub.swift"; sourceTree = "<group>"; };
+		104FA4AA249A9BDD005FB934 /* ProfileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				104FA4A4249A95BF005FB934 /* ProfileFetching.swift */,
 				104FA432249A85EC005FB934 /* Model */,
 				104FA49F249A8D96005FB934 /* Mapper */,
+				104FA4AA249A9BDD005FB934 /* ProfileSource.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				104FA4A7249A9865005FB934 /* ProfileFetcherStub.swift in Sources */,
 				104FA434249A863D005FB934 /* Profile.swift in Sources */,
 				104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */,
+				104FA4AB249A9BDD005FB934 /* ProfileSource.swift in Sources */,
 				104FA4A5249A95BF005FB934 /* ProfileFetching.swift in Sources */,
 				104FA431249A83E7005FB934 /* BasicProfile.swift in Sources */,
 				104FA40F249A818A005FB934 /* AppDelegate.swift in Sources */,
