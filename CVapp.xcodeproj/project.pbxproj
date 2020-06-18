@@ -21,6 +21,7 @@
 		104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4A8249A98E5005FB934 /* Profile+Stub.swift */; };
 		104FA4AB249A9BDD005FB934 /* ProfileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4AA249A9BDD005FB934 /* ProfileSource.swift */; };
 		104FA4AF249AA32A005FB934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4AE249AA32A005FB934 /* SceneDelegate.swift */; };
+		104FA4B6249B3FB6005FB934 /* UIImageView+ImageLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4B5249B3FB6005FB934 /* UIImageView+ImageLoading.swift */; };
 		104FA4B2249AA822005FB934 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4B1249AA822005FB934 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		104FA4A8249A98E5005FB934 /* Profile+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+Stub.swift"; sourceTree = "<group>"; };
 		104FA4AA249A9BDD005FB934 /* ProfileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSource.swift; sourceTree = "<group>"; };
 		104FA4AE249AA32A005FB934 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		104FA4B5249B3FB6005FB934 /* UIImageView+ImageLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageLoading.swift"; sourceTree = "<group>"; };
 		104FA4B1249AA822005FB934 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				104FA4B1249AA822005FB934 /* Colors.swift */,
+				104FA4B5249B3FB6005FB934 /* UIImageView+ImageLoading.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				104FA434249A863D005FB934 /* Profile.swift in Sources */,
 				104FA4A9249A98E5005FB934 /* Profile+Stub.swift in Sources */,
 				104FA4AB249A9BDD005FB934 /* ProfileSource.swift in Sources */,
+				104FA4B6249B3FB6005FB934 /* UIImageView+ImageLoading.swift in Sources */,
 				104FA4AF249AA32A005FB934 /* SceneDelegate.swift in Sources */,
 				104FA4A5249A95BF005FB934 /* ProfileFetching.swift in Sources */,
 				104FA431249A83E7005FB934 /* BasicProfile.swift in Sources */,
