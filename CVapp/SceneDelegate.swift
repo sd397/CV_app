@@ -8,7 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 		guard let windowScene = (scene as? UIWindowScene) else { return }
 		window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-		let profileVC = ProfileViewController(profileSource: ProfileSource(profileFetcher: ProfileFetcherStub()))
+		let profileVC = ProfileViewController(profileSource: ProfileSource(profileFetcher: ProfileFetcherStub()), profilePresenter: ProfilePresenter())
 		let navigationController = UINavigationController(rootViewController: profileVC)
         window?.windowScene = windowScene
 		window?.rootViewController = navigationController
