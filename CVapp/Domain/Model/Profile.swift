@@ -1,5 +1,5 @@
 import Foundation
 
-struct Profile: Codable {
+struct Profile: Codable, Equatable {
 	let basics: BasicProfile
 }

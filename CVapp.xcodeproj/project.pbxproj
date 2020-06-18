@@ -11,7 +11,6 @@
 		104FA413249A818A005FB934 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA412249A818A005FB934 /* ProfileViewController.swift */; };
 		104FA418249A818E005FB934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104FA417249A818E005FB934 /* Assets.xcassets */; };
 		104FA41B249A818E005FB934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104FA419249A818E005FB934 /* LaunchScreen.storyboard */; };
-		104FA426249A818E005FB934 /* CVappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA425249A818E005FB934 /* CVappTests.swift */; };
 		104FA431249A83E7005FB934 /* BasicProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA430249A83E7005FB934 /* BasicProfile.swift */; };
 		104FA434249A863D005FB934 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA433249A863D005FB934 /* Profile.swift */; };
 		104FA49E249A8D90005FB934 /* ProfileMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA49D249A8D90005FB934 /* ProfileMapper.swift */; };
@@ -28,6 +27,10 @@
 		104FA4BA249B444E005FB934 /* ProfileMainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4B9249B444E005FB934 /* ProfileMainHeaderView.swift */; };
 		104FA4BC249B45C7005FB934 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FA4BB249B45C7005FB934 /* ProfileHeaderView.swift */; };
 		1061EB81249B4D0E00C28A2A /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061EB80249B4D0E00C28A2A /* ProfilePresenter.swift */; };
+		1061EB83249B524C00C28A2A /* ProfilePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061EB82249B524C00C28A2A /* ProfilePresenterTest.swift */; };
+		1061EB85249B577700C28A2A /* ProfilePresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061EB84249B577700C28A2A /* ProfilePresenterMock.swift */; };
+		1061EB87249B57DC00C28A2A /* ProfileSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061EB86249B57DC00C28A2A /* ProfileSourceMock.swift */; };
+		1061EB89249B587500C28A2A /* ProfileViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061EB88249B587400C28A2A /* ProfileViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +51,6 @@
 		104FA41A249A818E005FB934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		104FA41C249A818E005FB934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		104FA421249A818E005FB934 /* CVappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		104FA425249A818E005FB934 /* CVappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVappTests.swift; sourceTree = "<group>"; };
 		104FA427249A818E005FB934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		104FA430249A83E7005FB934 /* BasicProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProfile.swift; sourceTree = "<group>"; };
 		104FA433249A863D005FB934 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -66,6 +68,10 @@
 		104FA4B9249B444E005FB934 /* ProfileMainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainHeaderView.swift; sourceTree = "<group>"; };
 		104FA4BB249B45C7005FB934 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		1061EB80249B4D0E00C28A2A /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		1061EB82249B524C00C28A2A /* ProfilePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterTest.swift; sourceTree = "<group>"; };
+		1061EB84249B577700C28A2A /* ProfilePresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterMock.swift; sourceTree = "<group>"; };
+		1061EB86249B57DC00C28A2A /* ProfileSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSourceMock.swift; sourceTree = "<group>"; };
+		1061EB88249B587400C28A2A /* ProfileViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +129,9 @@
 		104FA424249A818E005FB934 /* CVappTests */ = {
 			isa = PBXGroup;
 			children = (
-				104FA425249A818E005FB934 /* CVappTests.swift */,
 				104FA427249A818E005FB934 /* Info.plist */,
+				1061EB84249B577700C28A2A /* ProfilePresenterMock.swift */,
+				1061EB86249B57DC00C28A2A /* ProfileSourceMock.swift */,
 			);
 			path = CVappTests;
 			sourceTree = "<group>";
@@ -201,8 +208,18 @@
 				104FA4BD249B4B45005FB934 /* Views */,
 				104FA412249A818A005FB934 /* ProfileViewController.swift */,
 				1061EB80249B4D0E00C28A2A /* ProfilePresenter.swift */,
+				1061EB8A249B588400C28A2A /* Test */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		1061EB8A249B588400C28A2A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1061EB88249B587400C28A2A /* ProfileViewControllerTest.swift */,
+				1061EB82249B524C00C28A2A /* ProfilePresenterTest.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1061EB87249B57DC00C28A2A /* ProfileSourceMock.swift in Sources */,
+				1061EB85249B577700C28A2A /* ProfilePresenterMock.swift in Sources */,
+				1061EB89249B587500C28A2A /* ProfileViewControllerTest.swift in Sources */,
 				104FA4A1249A8DF9005FB934 /* ProfileMapperTest.swift in Sources */,
-				104FA426249A818E005FB934 /* CVappTests.swift in Sources */,
+				1061EB83249B524C00C28A2A /* ProfilePresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 
 import Foundation
 
-struct BasicProfile: Codable {
+struct BasicProfile: Codable, Equatable {
 	let firstName: String
 	let sureName: String
 	let role: String
